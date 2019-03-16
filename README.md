@@ -1,0 +1,1 @@
+# MgsMoney - Sistema de Gerenciamento Financeiro
