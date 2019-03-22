@@ -12,3 +12,20 @@ body {
         margin: 0 auto;
     }
 }
+
+.col-header {
+    width: 120px;
+}
+
+.col-data {
+    text-align: center;
+}
+
+.col-valor {
+    text-align: right;
+}
+
+.col-acoes {
+    width: 100px;
+    text-align: center;
+}
