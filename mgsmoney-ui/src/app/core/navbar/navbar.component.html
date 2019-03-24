@@ -1,5 +1,4 @@
 <nav class="navbar">
-
   <div class="container">
     <div class="ui-g">
       <div class="ui-g-12">
@@ -10,8 +9,8 @@
 
   <ul class="navbar-menu" [hidden]="!exibindoMenu">
     <li class="navbar-user">Murilo Gustavo</li>
-    <li class="navbar-menuitem"><a href="#">Lançamentos</a></li>
-    <li class="navbar-menuitem"><a href="#">Pessoas</a></li>
-    <li class="navbar-menuitem"><a href="#">Logout</a></li>
+    <li class="navbar-menuitem" routerLinkActive="ativo"><a routerLink="/lancamentos"><i class="pi pi-dollar"></i> Lançamentos</a></li>
+    <li class="navbar-menuitem" routerLinkActive="ativo"><a routerLink="/pessoas"><i class="pi pi-users"></i> Pessoas</a></li>
+    <li class="navbar-menuitem" routerLinkActive="ativo"><a href="#"><i class="pi pi-sign-out"></i> Logout</a></li>
   </ul>
 </nav>

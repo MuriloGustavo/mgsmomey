@@ -12,7 +12,7 @@ export class MessageComponent {
   @Input() control: FormControl;
   @Input() text: string;
 
-  temErro() {
+  temErro(): boolean {
     return this.control.hasError(this.error) && this.control.dirty;
   }
 

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { CoreModule } from './core/core.module';
 import { LancamentosModule } from './lancamentos/lancamentos.module';
+import { PessoasModule } from './pessoas/pessoas.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LancamentosModule } from './lancamentos/lancamentos.module';
     AppRoutingModule,
 
     CoreModule,
-    LancamentosModule
+    LancamentosModule,
+    PessoasModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,11 @@
+.col-header {
+  width: 120px;
+}
+
+.col-data {
+  text-align: center;
+}
+
+.col-valor {
+  text-align: right;
+}

@@ -38,14 +38,13 @@
 
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Categoria</label>
-        <p-dropdown name="categoria" [options]="categorias" placeholder="Selecione" ngModel
-          required></p-dropdown>
+        <p-dropdown name="categoria" [options]="categorias" placeholder="Selecione" ngModel required></p-dropdown>
       </div>
 
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Pessoa</label>
-        <p-dropdown name="pessoa" [options]="pessoas" placeholder="Selecione" [filter]="true"
-          ngModel required></p-dropdown>
+        <p-dropdown name="pessoa" [options]="pessoas" placeholder="Selecione" [filter]="true" ngModel required>
+        </p-dropdown>
       </div>
 
       <div class="ui-g-12 ui-fluid">
@@ -54,9 +53,10 @@
       </div>
 
       <div class="ui-g-12">
-        <button pButton type="submit" label="Salvar" [disabled]="f.invalid"></button>
-        <button pButton type="button" label="Novo" class="ui-button-info"></button>
-        <a href="javascript:;">Voltar para a pesquisa</a>
+        <a pButton icon="pi pi-arrow-circle-left" class="ui-button-success" label="Voltar"
+          routerLink="/lancamentos"></a>
+        <button pButton icon="pi pi-save" type="submit" label="Salvar" [disabled]="f.invalid"></button>
+        <button pButton icon="pi pi-plus" type="button" label="Novo" class="ui-button-info"></button>
       </div>
     </div>
 
